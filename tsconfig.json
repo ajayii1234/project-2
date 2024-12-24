@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "target": "ES2015",        // This ensures TypeScript compiles to ES2015 or later
+      "lib": ["ES2015", "DOM"],  // Ensure ES2015 and DOM are included for array methods
+      "strict": true,
+      "outDir": "./dist"
+    },
+    "include": [
+      "script.ts"
+    ]
+  }
+  
